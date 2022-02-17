@@ -69,7 +69,7 @@ int main()
 	int menu = 0;
     char cle[26];
 	initialisation(cle);
-	cout << "voulez vous chiffrer ou dechiffrer ? press a ou 2\n";
+	cout << "voulez vous chiffrer ou dechiffrer ? appuyer sur 1 ou 2\n";
 	cin >> menu;
 	if (menu == 1)
 	{	
