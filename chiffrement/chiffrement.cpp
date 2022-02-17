@@ -66,11 +66,23 @@ void dechiffrer(char* cle)
 
 int main()
 {  
+	int menu = 0;
     char cle[26];
 	initialisation(cle);
-	chiffrer(cle);
-	dechiffrer(cle);
-	return 0;
+	cout << "voulez vous chiffrer ou dechiffrer ? press a ou 2\n";
+	cin >> menu;
+	if (menu == 1)
+	{	
+		chiffrer(cle);
+		return 0;
+	}
+	else if(menu == 2)
+	{
+		dechiffrer(cle);
+		return 0;
+	}
+	
+	
 }
 
 
